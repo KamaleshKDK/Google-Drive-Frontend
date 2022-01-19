@@ -15,7 +15,7 @@ function Register() {
         },
         onSubmit: async (values) => {
             try {
-                await axios.post("http://localhost:3000/register", values)
+                await axios.post("https://googledrive-backend-node.herokuapp.com/register", values)
                 alert("Check Your mail to active the Account")
                 navigate("/")
             } catch (error) {

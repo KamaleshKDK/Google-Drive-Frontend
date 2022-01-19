@@ -12,7 +12,7 @@ function Forgotpassword() {
         },
         onSubmit: async (values) => {
             try {
-                let loginData = await axios.post("http://localhost:3000/login", values)
+                let loginData = await axios.post("https://googledrive-backend-node.herokuapp.com/login", values)
                 window.localStorage.setItem("my_token", loginData.data.token)
                 navigate("/")
             } catch (error) {
