@@ -1,0 +1,32 @@
+.clone-btn img{
+    width: 90px;
+    border: none;
+    margin-left: 48%;
+    margin-top: 10%;
+}
+.container{
+    margin-top: 10px;
+}
+.clone-btn button {
+    background-color: transparent;
+    border: none;
+    padding: 5px 10px;
+    margin-left: 20px;
+    display: flex;
+    align-items: center;
+    border-radius: 40px;
+    border: 1px solid lightgray;
+    box-shadow: 2px 2px 2px #cccc;
+}
+button{
+    margin-left: 57%;
+    margin-top: 2%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    border: none;
+    letter-spacing: 3px;
+    font-family:  sans-serif;
+
+}

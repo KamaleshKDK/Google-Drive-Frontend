@@ -1,0 +1,68 @@
+.sidebar {
+    margin-top: 10px;
+
+}
+
+.sidebar_btn button {
+    background-color: transparent;
+    border: none;
+    padding: 5px 10px;
+    margin-left: 20px;
+    display: flex;
+    align-items: center;
+    border-radius: 40px;
+    border: 1px solid lightgray;
+    box-shadow: 2px 2px 2px #cccc;
+}
+
+.sidebar_btn img {
+    width: 30px;
+    border: none;
+
+}
+
+.sidebar_btn button span {
+    font-size: 16px;
+    margin-right: 20px;
+    margin-left: 10px;
+}
+.sidebar_options{
+    margin-top: 10px;
+}
+.sidebar_option{
+    display: flex;
+    align-items: center;
+    padding: 8px 20px;
+    border-radius: 0px 20px 20px 0px;
+    width: 17%;
+}
+.sidebar_option:hover {
+    background-color: whitesmoke;
+    cursor: pointer;
+}
+.sidebar_option span {
+    margin-left: 15px;
+    font-size: 13px;
+    font-weight: 500;
+    color: rgba(78,78,78);
+}
+.sidebar_option-Active{
+ 
+}
+
+.sidebar_option-Active span:hover {
+    color: #1367d2 ;
+}
+
+
+.sidebar_option-Active svg:hover {
+    color: #1367d2 ;
+}
+.progress_bar{
+    padding: 0px 20px;
+}
+.progress_bar span {
+    display: block;
+    font-size: 13px;
+    color :#333;
+}

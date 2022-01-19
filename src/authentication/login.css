@@ -1,0 +1,21 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+.login-heading {
+  font-family: 'Poppins', sans-serif;
+  font-size: 40px;
+    text-align: center;
+    text-shadow: 2px 2px 4px rgba(0,0,0,.2);
+    letter-spacing: 3px;
+    margin-bottom: 15px;
+    opacity: .8;
+    
+
+}
+.create-btn{
+  color: black;
+}
+
+.create-btn:hover{
+  color: blue;
+  font-weight: 500;
+}
